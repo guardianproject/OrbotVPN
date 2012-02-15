@@ -1,0 +1,9 @@
+An attempt to create a userland VPN feature for Android ICS 4.x devices that transparent routes all traffic through Tor without requiring root.
+
+About ICS VPN Client API
+
+VPN client API
+
+Developers can now build or extend their own VPN solutions on the platform using a new VPN API and underlying secure credential storage. With user permission, applications can configure addresses and routing rules, process outgoing and incoming packets, and establish secure tunnels to a remote server. Enterprises can also take advantage of a standard VPN client built into the platform that provides access to L2TP and IPSec protocols.
+
+More here: http://developer.android.com/reference/android/net/VpnService.html
