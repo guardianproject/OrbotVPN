@@ -1,0 +1,3 @@
+[submodule "external/jsocks"]
+	path = external/jsocks
+	url = https://github.com/ravn/jsocks.git
