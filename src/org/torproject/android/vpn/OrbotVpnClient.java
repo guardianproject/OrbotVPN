@@ -16,14 +16,19 @@
 
 package org.torproject.android.vpn;
 
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.net.VpnService;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.TextView;
-import android.widget.Button;
+
+import com.runjva.sourceforge.jsocks.protocol.AuthenticationNone;
+import com.runjva.sourceforge.jsocks.protocol.ProxyServer;
+import com.runjva.sourceforge.jsocks.protocol.Socks5Proxy;
+import com.runjva.sourceforge.jsocks.server.ServerAuthenticatorNone;
 
 public class OrbotVpnClient extends Activity implements View.OnClickListener {
 
@@ -35,6 +40,8 @@ public class OrbotVpnClient extends Activity implements View.OnClickListener {
 
 
         findViewById(R.id.connect).setOnClickListener(this);
+        
+        
     }
 
     @Override
