@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/non_encrypted/repos/OrbotVPN-studio/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="app">OrbotVPN</string>
+    <string name="connect">Connect!</string>
+    <string name="connected">OrbotVPN is connected!</string>
+    <string name="connecting">OrbotVPN is connecting...</string>
+    <string name="disconnected">OrbotVPN is disconnected!</string>
+    <!-- From: file:/non_encrypted/repos/OrbotVPN-studio/app/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+</resources>

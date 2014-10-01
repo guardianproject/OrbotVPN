@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/non_encrypted/repos/OrbotVPN-studio/app/src/main/res" >
+            <file
+                path="/non_encrypted/repos/OrbotVPN-studio/app/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style name="item" >
+                    <item name="android:layout_width">
+match_parent
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:textAppearance">
+?android:attr/textAppearanceMedium
+                    </item>
+                    <item name="android:singleLine">
+true
+                    </item>
+                </style>
+            </file>
+            <file
+                path="/non_encrypted/repos/OrbotVPN-studio/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="disconnected" >OrbotVPN is disconnected!
+                </string>
+                <string name="connecting" >OrbotVPN is connecting...
+                </string>
+                <string name="app" >OrbotVPN
+                </string>
+                <string name="connected" >OrbotVPN is connected!
+                </string>
+                <string name="connect" >Connect!
+                </string>
+            </file>
+            <file
+                name="form"
+                path="/non_encrypted/repos/OrbotVPN-studio/app/src/main/res/layout/form.xml"
+                qualifiers=""
+                type="layout" />
+        </source>
+        <source path="/non_encrypted/repos/OrbotVPN-studio/app/build/generated/res/rs/debug" />
+        <source path="/non_encrypted/repos/OrbotVPN-studio/app/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/non_encrypted/repos/OrbotVPN-studio/app/src/debug/res" />
+    </dataSet>
+
+</merger>

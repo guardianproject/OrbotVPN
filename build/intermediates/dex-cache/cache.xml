@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/non_encrypted/repos/OrbotVPN-studio/app/build/intermediates/pre-dexed/debug/slf4j-api-1.7.7-938e074119be5ec1499acb0eb3443cc2b4f8d53c.jar"
+        jar="/non_encrypted/repos/OrbotVPN-studio/app/libs/slf4j-api-1.7.7.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="949db5d6435aecdd6c2a61ce252edd2e9d582441"/>
+    <item
+        dex="/non_encrypted/repos/OrbotVPN-studio/app/build/intermediates/pre-dexed/debug/slf4j-android-1.7.7-92766324962d396b4af6d1da209bfc0fb66768af.jar"
+        jar="/non_encrypted/repos/OrbotVPN-studio/app/libs/slf4j-android-1.7.7.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="db15e822fe1b4ee8d40edb4464daf54741a1f745"/>
+
+</pre-dex-items>
